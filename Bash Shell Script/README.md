@@ -7,14 +7,20 @@ No caso de um bash
 ```bash
 #!/bin/bash
 ```
+## Linux terminal
+```bash
+vi nome.sh
+```
+Tecla `i`
+```bash
+#!/bin/bash
+```
+Digite o código do script
+Tecla `ESC`
+Digite `:wq`
+Tecla `ENTER`
+```bash
+chmod a+x nome.sh
+./nome.sh
+```
 
-
-<!-- vi nome.sh
-precione "i"
-digite "#!/bin/bash"
-digite o código script
-após edição pressione "ESC"
-digite ":wq"
-precione "ENTER"
-digite "chmod a+x nome.sh"
-execute "./nome.sh" -->
