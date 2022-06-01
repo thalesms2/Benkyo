@@ -1,0 +1,9 @@
+vi nome.sh
+precione "i"
+digite "#!/bin/bash"
+digite o código script
+após edição pressione "ESC"
+digite ":wq"
+precione "ENTER"
+digite "chmod a+x nome.sh"
+execute "./nome.sh"
