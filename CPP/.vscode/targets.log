@@ -2,7 +2,6 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
- 
 # Built for x86_64-pc-msys
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -10,15 +9,15 @@ make: *** No rule to make target 'all'.  Stop.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Sun May 29 02:13:12 2022
+# Make data base, printed on Tue May 31 22:13:40 2022
 
 # Variables
 
+ 
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
- 
 # environment
 LC_ALL = C
 # environment
@@ -26,9 +25,9 @@ USERPROFILE = C:\Users\thale
 # environment
 LOCALAPPDATA = C:\Users\thale\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4f7ace2a-78ff-4c59-b836-6bc18f06ab53-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-250a9271-60f3-49ad-a4e0-40cc4200c72d-sock
 # environment
-VSCODE_CWD = C:\github\CPP
+VSCODE_CWD = C:\github\Benkyo\CPP
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -42,7 +41,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1820_ZIKKUVBIUXOAZCUS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12768_UXXQPAXVPDTLYZVP
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -76,7 +75,7 @@ INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
 # environment
 ONEDRIVE = C:\Users\thale\OneDrive
 # makefile
-CURDIR := /c/github/CPP
+CURDIR := /c/github/Benkyo/CPP
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -92,7 +91,7 @@ MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
-!C: = c:\github\CPP
+!C: = c:\github\Benkyo\CPP
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
@@ -104,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1820
+VSCODE_PID = 12768
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -191,6 +190,7 @@ APPDATA = C:\Users\thale\AppData\Roaming
 HOMEDRIVE = C:
 # environment
 PROCESSOR_ARCHITECTURE = AMD64
+ 
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -208,7 +208,6 @@ TERM = xterm-256color
 # default
 .RECIPEPREFIX := 
 # automatic
- 
 <F = $(notdir $<)
 # default
 SUFFIXES := 
@@ -225,17 +224,20 @@ PROCESSOR_REVISION = 0802
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
 # variable set hash-table stats:
+ 
 # Load=104/1024=10%, Rehash=0, Collisions=14/133=11%
+ 
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
+ 
 
 # Directories
 
-# . (device 2394619425, inode 13229323905523038): 8 files, no impossibilities.
+# . (device 2394619425, inode 6755399441237503): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -305,12 +307,12 @@ compilar: pessoamain.cpp
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 140 B / avg = 8 B
-# current buf: size = 8162 B / used = 140 B / count = 17 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 171 B / avg = 9 B
+# current buf: size = 8162 B / used = 171 B / count = 18 / avg = 9 B
 
-# strcache performance: lookups = 27 / hit rate = 37%
+# strcache performance: lookups = 28 / hit rate = 35%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/27=0%
-# Finished Make data base on Sun May 29 02:13:12 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/28=0%
+# Finished Make data base on Tue May 31 22:13:40 2022
 
  
