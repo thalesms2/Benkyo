@@ -1,6 +1,6 @@
 // Feito por Thales, Nicole, Julia
 #include <iostream>
-#include <conio.h>
+#include "conio.c"
 #include "conio2.h"
 #include "codefun.h"
 #include <windows.h>

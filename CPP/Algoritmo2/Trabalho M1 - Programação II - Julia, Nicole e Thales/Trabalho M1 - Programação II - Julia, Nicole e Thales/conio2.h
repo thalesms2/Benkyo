@@ -13,7 +13,7 @@
 #ifndef _CONIO2_H_
 #define _CONIO2_H_
 
-#include <conio.h>
+#include "conio.c"
 #ifdef UNICODE
     #include <windows.h>    // we need wchar_t
 #endif

@@ -9,7 +9,7 @@ make: *** No rule to make target 'all'.  Stop.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue May 31 22:13:40 2022
+# Make data base, printed on Tue May 31 23:24:49 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ USERPROFILE = C:\Users\thale
 # environment
 LOCALAPPDATA = C:\Users\thale\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-250a9271-60f3-49ad-a4e0-40cc4200c72d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-10580445-cfb1-4f60-8ecd-aa7beb329704-sock
 # environment
 VSCODE_CWD = C:\github\Benkyo\CPP
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12768_UXXQPAXVPDTLYZVP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17152_WKKZUCJQLZSXDIZM
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -103,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 12768
+VSCODE_PID = 17152
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -190,7 +190,6 @@ APPDATA = C:\Users\thale\AppData\Roaming
 HOMEDRIVE = C:
 # environment
 PROCESSOR_ARCHITECTURE = AMD64
- 
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -224,20 +223,17 @@ PROCESSOR_REVISION = 0802
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
 # variable set hash-table stats:
- 
 # Load=104/1024=10%, Rehash=0, Collisions=14/133=11%
- 
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
- 
 
 # Directories
 
-# . (device 2394619425, inode 6755399441237503): 9 files, no impossibilities.
+# . (device 2394619425, inode 6755399441237503): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -307,12 +303,13 @@ compilar: pessoamain.cpp
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 171 B / avg = 9 B
-# current buf: size = 8162 B / used = 171 B / count = 18 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 178 B / avg = 9 B
+# current buf: size = 8162 B / used = 178 B / count = 19 / avg = 9 B
 
-# strcache performance: lookups = 28 / hit rate = 35%
+# strcache performance: lookups = 29 / hit rate = 34%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/28=0%
-# Finished Make data base on Tue May 31 22:13:40 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Tue May 31 23:24:49 2022
+ 
 
  
