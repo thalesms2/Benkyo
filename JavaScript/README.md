@@ -14,6 +14,16 @@ console.log(`The ${msg}`)
 Comentário de varias linhas
 */
 ```
+## Integração no HTML 
+> Código JavaScript dentro do arquivo `.html`
+```html
+<script type="text/javascript">
+</script>
+```
+> Importação de um arquivo `.js` separado com a tecnologia de modularização de código
+```html
+<script type="module/javascript" src="filename.js"></script>
+```
 ## Variáveis
 ### LET
 > Escopo de bloco
@@ -331,6 +341,3 @@ const arr = [1, 2, 3]
 lastItem = arr.pop()
 // lastItem = 3
 ```
-
-### Object.
-> .
