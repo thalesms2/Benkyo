@@ -1,6 +1,0 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/c/github/Benkyo/CPP'
-make: Leaving directory '/c/github/Benkyo/CPP'
- 
-make: *** No rule to make target 'pessoamain.cpp', needed by 'compilar'.
-
