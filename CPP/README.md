@@ -12,7 +12,8 @@ int main() {
 int num = 0, x = 20, y = 40;
 ```
 
-## #include <iostream>
+## Iostream
+> `#include <iostream>`
 Biblioteca para E/S baseada em fluxo
 
 ### Namespace

@@ -7,13 +7,11 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue May 31 23:24:49 2022
+# Make data base, printed on Tue May 31 23:55:05 2022
 
 # Variables
 
- 
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
@@ -25,7 +23,7 @@ USERPROFILE = C:\Users\thale
 # environment
 LOCALAPPDATA = C:\Users\thale\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-10580445-cfb1-4f60-8ecd-aa7beb329704-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f9ed7030-14eb-40bc-ae62-880fbcb91ee3-sock
 # environment
 VSCODE_CWD = C:\github\Benkyo\CPP
 # environment
@@ -41,7 +39,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17152_WKKZUCJQLZSXDIZM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7476_KFVGZRLNWPIYHFXA
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -90,6 +88,7 @@ WALLABY_PRODUCTION = true
 MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
+ 
 # environment
 !C: = c:\github\Benkyo\CPP
 # environment
@@ -103,7 +102,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 17152
+VSCODE_PID = 7476
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -156,6 +155,7 @@ COMMONPROGRAMFILES = C:\Program Files\Common Files
 ?F = $(notdir $?)
 # environment
 PROGRAMW6432 = C:\Program Files
+ 
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
@@ -265,6 +265,7 @@ executar: compilar
 apagar:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 17):
 	rm $(NOMEPROG)
@@ -278,6 +279,7 @@ apagar:
 # Not a target:
 all:
 #  Command line target.
+ 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
@@ -303,13 +305,12 @@ compilar: pessoamain.cpp
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 178 B / avg = 9 B
-# current buf: size = 8162 B / used = 178 B / count = 19 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 181 B / avg = 9 B
+# current buf: size = 8162 B / used = 181 B / count = 19 / avg = 9 B
 
 # strcache performance: lookups = 29 / hit rate = 34%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Tue May 31 23:24:49 2022
- 
+# Finished Make data base on Tue May 31 23:55:05 2022
 
  
