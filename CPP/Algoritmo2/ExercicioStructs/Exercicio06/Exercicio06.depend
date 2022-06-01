@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1569409881 source:c:\users\thale\onedrive\documentos\c++\algoritmo2\exerciciostructs\exercicio06\main.cpp
+	<iostream>
+	<windows.h>
+	"codefun.h"
+
+1563097301 c:\users\thale\onedrive\documentos\c++\algoritmo2\exerciciostructs\exercicio06\codefun.h
+	<windows.h>
+	<time.h>
+	<string.h>
+

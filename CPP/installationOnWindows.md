@@ -1,0 +1,49 @@
+# Instalar compilador no Windows
+
+> GCC e G++
+
+- Acesse o [Site](https://www.msys2.org/) e faça o download do MSYS2
+- Instale MSYS2
+- Abra o MSYS2 MSYS caso não tenha sido aberto automáticamente após a instalação
+- Execute `pacman -Syu` para atualizar o gerenciador de pacotes "pacman"
+- Execute `pacman -S base-devel gcc vim cmake` para instalar todas as ferramentas de desenvolvedor necessárias
+
+### base-devel
+
+pacote de desenvolvimento que possui 53 ferramentas uteis para desenvolvimento que podem ser instaladas
+
+ 1) asciidoc  2) autoconf  3) autoconf2.13  4) autogen  5) automake-wrapper
+   6) automake1.10  7) automake1.11  8) automake1.12  9) automake1.13
+   10) automake1.14  11) automake1.15  12) automake1.16  13) automake1.6
+   14) automake1.7  15) automake1.8  16) automake1.9  17) bison  18) diffstat
+   19) diffutils  20) dos2unix  21) file  22) flex  23) gawk  24) gdb
+   25) gettext  26) gettext-devel  27) gperf  28) grep  29) groff  30) help2man
+   31) intltool  32) lemon  33) libtool  34) libunrar  35) libunrar-devel
+   36) m4  37) make  38) man-db  39) pacman  40) pactoys-git  41) patch
+   42) patchutils  43) perl  44) pkg-config  45) pkgfile  46) quilt  47) rcs
+   48) scons  49) sed  50) swig  51) texinfo  52) texinfo-tex  53) ttyrec
+
+### gcc
+
+Compilador da linguagem C que vem em conjunto com o compilador da linguagem C++ `g++`
+
+### vim
+
+IDE que é executada no terminal
+
+### cmake
+
+Sistema multiplataforma para realizar a geração automatizada, cria scripts para compilação e execução.
+
+## Adicionar executaveis ao PATH do Windows
+Para usar os comandos diretamente em qualquer prompt de comando, é necessário adicionar seus caminhos as variáveis de ambiente do windows para isso procure `Editar as variáveis de ambiente do sistema` 
+Clique no botão `Variáveis de Ambiente`
+No primeiro campo procure por `Path` o selecione e clique no botão `Editar...`
+Clique no botão `Novo` e insira esses dois diretórios separadamente
+
+```bash
+C:\msys64\mingw64\bin
+```
+```bash
+C:\msys64\usr\bin
+```

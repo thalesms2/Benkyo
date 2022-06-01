@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566989941 source:c:\users\thale\onedrive\documentos\c++\algoritmo2\exerciciomatriz\exercicio02\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

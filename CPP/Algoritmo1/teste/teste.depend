@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1567274213 source:c:\users\thale\onedrive\documentos\c++\algoritmo1\teste\main.cpp
+	<iostream>
+	<windows.h>
+
