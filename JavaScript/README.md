@@ -31,8 +31,8 @@ var notEscoped
 const escoped = "not undefined"
 ```
 ## Tipos
-### Number
 > JavaScript é dinâmicamente tipado, o que quer dizer que você tem total liberdade para fazer muita coisa errada
+### Number
 ```javascript
 let number = 6
 let price = 4.99;
