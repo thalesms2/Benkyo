@@ -25,3 +25,4 @@ dist-ssr
 *.log
 CPP/.vscode/targets.log
 *.log
+CPP/.vscode/settings.json

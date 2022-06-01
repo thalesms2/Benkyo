@@ -45,7 +45,7 @@ std::cout << "Hello" << text << "!";
 
 
 ### CIN
-Call in | Console Input, operação para extrair dados inseridos pelo teclado
+Call in | Console input, operação para extrair dados inseridos pelo teclado
 Utiliza o operador de extração `>>`
 ```cpp
 char name[12];
