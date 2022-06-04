@@ -32,3 +32,4 @@
     - Map
     - Sort
     - Filter
+- Tailwindcss | tailwindUI | tailwindComponents
