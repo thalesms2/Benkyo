@@ -67,3 +67,14 @@ Os Arrays também possuem a mesma tipagem então se uma variavel é definida con
 var arr: any[]
 // Pode ser atribuido valor ou não.
 ```
+
+```typescript
+interface example {
+	Name: string[]
+	Id: Array<number>
+}
+
+type ActionType {
+	Type: 'ADD_PRODUCT' | 'REMOVE_PRODUCT'
+}
+```

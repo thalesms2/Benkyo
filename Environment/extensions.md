@@ -62,9 +62,20 @@
 
 ### ESLint
 > ESLint JavaScript
-
+### Auto Close Tag
+> Automáticamente fecha tags XML e HTML
+### Auto Rename Tag
+> Automáticamente renomeia tags pareadas de XML e HTML
+### Better Comments
+> Adiciona highlighting nos comentários e diferentes formas de configuração de highlighting como o TODO TREE - Não está sendo utilizado
+### Error Lens
+> Melhora a visualização e highlighting dos erros
+### Path intellisense
+> Auto Complete de caminhos de arquivos
+### Vite
+> Builder
+###
 ## Suporte de Tecnologias
-
 ### Flutter
 > Suporte para Flutter
 

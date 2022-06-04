@@ -1,8 +1,16 @@
-# Windows Terminal customizações
+# Windows Terminal
+## Perfil
+### Criar GUID
+> GUID é o ID do perfil que tem que ser único, pode se gerar em sites ou executando o seguinte comando no terminal
+```bash
+[guid]::NewGuid()
+```
+
+## Customizações
 
 - Instalar Dracula Theme
 
-## Starship
+### Starship
 
 [Site](https://starship.rs/)
 [Repo](https://github.com/starship/starship)
@@ -32,6 +40,6 @@ Edite o perfil com `notepad $PROFILE` e adicione em seu final
 Invoke-Expression (&starship init powershell)
 ```
 
-## Config
+### Config
 
 `C:\users\usuario\.config\starship.toml`

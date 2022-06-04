@@ -1,34 +1,34 @@
 # Lista de fazeres
 
-- Realizar projeto para usar Mutation no react-query, [link do video](youtube.com/watch?v=Mvy1ahOJ8TA)
-## Tecnologias
-### Portainer
-> docker manager for browser
-[Medium link](https://renatogroffe.medium.com/docker-portainer-gerenciando-containers-a-partir-de-um-browser-87af6ce74be3)
-### Docker and Docker Compose
-### nginx-swag
-> to reverse proxy the  containers to clean urls
-### micro
-> text editor in the command line
-### fish
-> command line shell for everybody
-[Link](https://fishshell.com/)
-### neovim | nvim
-> text editor in the command line
-### Insomnia
-### Poetry
-> python packaging and dependency management
-[Link](https://python-poetry.org/)
-### yarn
-> javascript (node) package manager
-### NVM
-> node version manager 
-### Vivaldi
-> Browser with css debugging tools
-
-## Tecnologias Linux
-### zsh
-### oh my zsh
-> terminal theme for zsh
-### powerlevel10k
-> terminal theme for zsh
+- [Realizar projeto para usar Mutation no react-query](youtube.com/watch?v=Mvy1ahOJ8TA)
+- [Assistir curso de TypeScript](https://www.youtube.com/watch?v=BwuLxPH8IDs&list=WL&index=1&t=1s) (13:18)
+- Curso GraphQL na udemy
+- Assistir e fazer um exemplo [React Hooks com TypeScript](https://www.youtube.com/watch?v=GOB-lawExXc)
+- [Flutter Labs - Programando para o Linux no Windows](https://www.youtube.com/watch?v=K4JjrLSOmek)
+- [Deploy de apps Node.js](https://www.youtube.com/watch?v=ICIz5dE3Xfg)
+- Pesquisar para que serve .eslintrc.json em projetos Next.js
+- Pesquisar sobre disparadores de email (Amazon SES | email gun)
+- [Trabalhando com API Routes no Next.js](https://www.youtube.com/watch?v=ZDSiAwuoX0c&t=1607s)
+- React Hooks
+	- useReducer
+	- useMemo
+	- useCallback
+	- useRef
+	- useContext
+    - useImperativeHandle
+- [TypeScript, o inicio, de forma prática](https://www.youtube.com/watch?v=0mYq5LrQN1s)
+- [Aprender sobre Neon](https://neon.tech/)
+- [Aprender sobre Scoop](https://scoop.sh/)
+- [Crie uma API RESTful com Node e MongoDB](https://www.youtube.com/watch?v=K5QaTfE5ylk)
+- [API RESTful com AdonisJS - Aprenda Adonis em 1 hora](https://www.youtube.com/watch?v=y8XfJJYhXPE)
+- Aprender sobre getStaticProps | getStaticPaths Next.js
+- [Tentar fazer infinity scroll](https://gist.github.com/ivandoric/2f770c7b8c165d76a431e34c98312d76)
+- [API Simples em Node.js rodando em container dentro de um VPS](https://www.youtube.com/watch?v=MiAiFTQjitc)
+- [Menu do Strope com React](https://www.youtube.com/watch?v=B7V0q0ZSz2o)
+- [A Feature Mais Avançada de Aprender no Next.js (Você consegue?)](https://www.youtube.com/watch?v=V2T_bkOs0xA)
+- [10 Coisas IMPRESSIONANTES Que Encontrei na Internet!!](https://www.youtube.com/watch?v=m26jErLd5ds)
+- Estudar em JavaScript:
+    - Reduce
+    - Map
+    - Sort
+    - Filter

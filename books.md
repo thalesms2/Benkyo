@@ -1,0 +1,2 @@
+- "Aprendendo Inteligencia" - Prof Pier
+- "Estruturas de dados e algoritmos com JavaScript: Escreva um código JavaScript complexo e eficaz usando a mais recente ECMAScript" - Loiane Groner
