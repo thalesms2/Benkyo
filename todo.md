@@ -33,3 +33,5 @@
     - Sort
     - Filter
 - Tailwindcss | tailwindUI | tailwindComponents
+- [SQL no Node.js com Knex.js | Masterclass #13](https://www.youtube.com/watch?v=U7GjS3FuSkA)
+- [Autenticação com Github](https://www.youtube.com/watch?v=OE4IupjQjzE)

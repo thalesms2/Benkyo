@@ -22,6 +22,7 @@
 - [Be A Better Dev](https://www.youtube.com/c/BeABetterDev)
 - [The Digital Life](https://www.youtube.com/c/TheDigitalLifeTech)
 - [Ben Eater](https://www.youtube.com/c/BenEater)
+- [dpw](https://www.youtube.com/c/dpwoficial)
 ## Cursos
 ### DevOps na Prática
 [Azure API Management](https://www.youtube.com/watch?v=JsRLzs-Dh48)
