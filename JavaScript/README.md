@@ -73,12 +73,24 @@ let x = null
 let x
 console.log(x)
 ```
+
+## Alterações de tipos
+```javascript
+Number.parseInt('string') 
+Number.parseFloat('string') 
+Number(variable)
+
+String(variable)
+variable.toString()
+
+```
 ## Operadores Aritméticos
 - `+` Adição
 - `-` Subtração
 - `*` Multiplicação
 - `/` Divisão
 - `%` Módulo
+- `**` Potencia
 ## Operadores de Atribuição
 - `=` Atribuição simples 
 - `+=` Soma e atribui
@@ -318,6 +330,30 @@ Math.random()
 let msg = 'Hello World'
 console.log(msg.lenght)
 console.log('Twenty One Pilots'.lenght)
+```
+> .toUpperCase retorna a string toda em maiusculo
+```javascript
+var msg = 'Hello World'
+console.log(msg.toUpperCase())
+```
+> .toLowerCase retorna a string toda em minusculo
+```javascript
+var msg = 'Hello World'
+console.log(msg.toLowerCase())
+```
+### Number.
+> .toFixed(number) number sendo a quantidade de casas após o ponto flutuante
+```javascript
+var num = 12.5
+console.log(num.toFixed(2))
+// 12.50
+```
+> .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+```javascript
+var salario = 1900
+console.log(salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))
+// Terminal: R$ 1.900,00
+// Navegador: R$ 1,900.00
 ```
 ### Math.
 > .floor retorna o número passado como parâmetro arrendodado para baixo | o maior inteiro menor ou igual ao número passado
