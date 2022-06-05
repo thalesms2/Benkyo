@@ -377,3 +377,10 @@ const arr = [1, 2, 3]
 lastItem = arr.pop()
 // lastItem = 3
 ```
+## Eventos
+- mouseenter
+- mousemove
+- mousedown
+- mouseup
+- click
+- mouseout
