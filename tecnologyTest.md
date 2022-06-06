@@ -33,7 +33,9 @@
 > Streaming with your browser
 ### Selenium
 > Automating web application for testing purposes, but can automates browsers.
-
+### DevTools
+> [ferramentas para desenvolvedores](https://github.com/veler/DevToys)
+> [outra online](https://www.4devs.com.br)
 
 
 

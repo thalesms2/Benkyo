@@ -32,3 +32,5 @@
 - [Curso em video](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 ### RocketSeat
 - [Site](https://www.rocketseat.com.br/)
+### Curso de Python para Zombies
+[Site](https://www.pycursos.com.br/python-para-zumbis/)
