@@ -1,22 +1,18 @@
 # CPP
-
 ## Base
 ```cpp
 int main() {
     return 0;
 }
 ```
-
 ## Variáveis
 ```cpp
 int num = 0, x = 20, y = 40;
 ```
-
 ## Iostream
 > `#include <iostream>`
 
 Biblioteca para E/S baseada em fluxo
-
 ### Namespace
 Com namespace:
 ```cpp
@@ -27,7 +23,6 @@ Sem namespace:
 ```cpp
 std::cout << "echo\n";
 ```
-
 ### COUT
 Call out | Console output, operação para inserir algo na tela
 Utiliza o operador de inserção `<<`
@@ -35,15 +30,12 @@ Utiliza o operador de inserção `<<`
 cout << "Hello World!";
 std::cout << "Hello World!";
 ```
-
 Quando necessário exibir uma variável em conjunto a um texto é feito
 ```cpp
 char text[5] = "World";
 cout << "Hello" << text << "!";
 std::cout << "Hello" << text << "!";
 ```
-
-
 ### CIN
 Call in | Console input, operação para extrair dados inseridos pelo teclado
 Utiliza o operador de extração `>>`
@@ -52,15 +44,11 @@ char name[12];
 cin >> name;
 std::cin >> name;
 ```
-
 ### ENDL
 Mesma função que o `\n`
 ```cpp
 std::cout << "Hello World!" << std::endl;
 ```
-
-
-
 ## Estrutura de Controle
 
 ### While
@@ -69,7 +57,6 @@ while(condition) {
     // Código que será executado
 }
 ```
-
 ### If
 ```cpp
 if(condition) {
@@ -110,9 +97,7 @@ switch(condition) {
     break;
 }
 ```
-
 ### ForEach
-
 ```cpp
 int arr[] = { 10, 20, 30, 40 };
 for (int x : arr)
