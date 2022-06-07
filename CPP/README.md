@@ -9,6 +9,20 @@ int main() {
 ```cpp
 int num = 0, x = 20, y = 40;
 ```
+## Constantes
+```cpp
+#define STR 'valor'
+#define NUM 3
+int main() {
+
+}
+```
+## Ponteiros
+```cpp
+int *pointer, *pointerEmpty, variable = 10;
+pointer = &variable
+pointerEmpty = new int;
+```
 ## Iostream
 > `#include <iostream>`
 
@@ -49,11 +63,25 @@ Mesma função que o `\n`
 ```cpp
 std::cout << "Hello World!" << std::endl;
 ```
+## time.h
+> #include <time.h>
+## stdlib
+> #include <cstdlib>
+## QApplication
+> #include <QApplication>
+## QWidget
+> #include <QWidget>
 ## Estrutura de Controle
 
 ### While
 ```cpp
 while(condition) {
+    // Código que será executado
+}
+```
+### For
+```cpp
+for(int variable = 0; variable > 100; variable++) {
     // Código que será executado
 }
 ```
@@ -102,4 +130,29 @@ switch(condition) {
 int arr[] = { 10, 20, 30, 40 };
 for (int x : arr)
     std::cout << x << std::endl;
+```
+
+## Função
+```cpp
+int soma(int x, int y) {
+    return x + y;
+}
+void printSoma(int soma) {
+    cout << soma;
+}
+```
+
+## Struct
+```cpp
+struct person {
+    char name[30];
+    int age;
+    float salary; 
+};
+int main() {
+    person me;
+    me.name = "Thales";
+    me.age = 22;
+    me.salary = 0000.00
+}
 ```
