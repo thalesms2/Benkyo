@@ -73,6 +73,8 @@ let x = null
 let x
 console.log(x)
 ```
+### Function
+### Object
 
 ## Alterações de tipos
 ```javascript
