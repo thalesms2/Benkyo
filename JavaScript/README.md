@@ -62,6 +62,7 @@ const arr = [123, 'differents types', true]
 console.log(arr[0])
 // Print: 123
 ```
+#### Destructuring
 ### Null
 > Representa a falta de valor | vazio
 ```javascript
