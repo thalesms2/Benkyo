@@ -1,5 +1,4 @@
 # Lista de fazeres
-
 - [Realizar projeto para usar Mutation no react-query](youtube.com/watch?v=Mvy1ahOJ8TA)
 - [Assistir curso de TypeScript](https://www.youtube.com/watch?v=BwuLxPH8IDs&list=WL&index=1&t=1s) (13:18)
 - Curso GraphQL na udemy
@@ -40,3 +39,4 @@
 - [Controlando autenticação em rotas no React](https://www.youtube.com/watch?v=sYe4r8WXGQg)
 - [Intensivão Next.js com Tailwind](https://www.youtube.com/watch?v=VlZpDr59sjk)
 - [JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await](https://www.youtube.com/watch?v=7Bs4-rqbCQc)
+- Tela de carregamento de agentes copia de interface do jogo Valorant, consumindo a API do Valorant
