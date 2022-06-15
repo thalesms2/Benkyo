@@ -40,3 +40,4 @@
 - [Intensivão Next.js com Tailwind](https://www.youtube.com/watch?v=VlZpDr59sjk)
 - [JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await](https://www.youtube.com/watch?v=7Bs4-rqbCQc)
 - Tela de carregamento de agentes copia de interface do jogo Valorant, consumindo a API do Valorant
+- [Making a linking shortener for free with NextJS, Prisma, PlanetScale,TS and more.](https://www.youtube.com/watch?v=qcyEtvSiM9c)
