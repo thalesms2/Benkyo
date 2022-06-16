@@ -25,3 +25,11 @@ clamp(min, rate, max) para valores
 ### :only-of-type
 ### :not()
 ### :target
+
+### Ordem de importancia
+### Estilos inline
+### IDs
+### Classes, pseudoclasses e atributos
+### Elementos e pseudoelementos
+
+### !important = Priodade total!
