@@ -19,3 +19,9 @@ querys adicionam complexidade, não sobrescrevem o código já existente, podem 
 usar css moderno como funções que facilitam a vida
 
 clamp(min, rate, max) para valores
+
+### :empty
+### :only-child
+### :only-of-type
+### :not()
+### :target
