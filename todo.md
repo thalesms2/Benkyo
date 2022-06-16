@@ -1,5 +1,5 @@
 # Lista de fazeres
-- [Realizar projeto para usar Mutation no react-query](youtube.com/watch?v=Mvy1ahOJ8TA)
+- [Realizar projeto para usar Mutation no react-query](https://www.youtube.com/watch?v=Mvy1ahOJ8TA)
 - [Assistir curso de TypeScript](https://www.youtube.com/watch?v=BwuLxPH8IDs&list=WL&index=1&t=1s) (13:18)
 - Curso GraphQL na udemy
 - Assistir e fazer um exemplo [React Hooks com TypeScript](https://www.youtube.com/watch?v=GOB-lawExXc)
