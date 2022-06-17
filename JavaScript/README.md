@@ -1,11 +1,14 @@
 # JavaScript
 ```javascript
 let msg = 'example'
+const arr = ['key': value, 'key2': value2]
 console.log('Hello World!')
 // Print on console: Hellow World!
 console.log('The ' + msg)
 console.log(`The ${msg}`)
 // Print on console the same thing: The example
+console.table(arr)
+// Print a table on console with the array or object information
 ```
 ## Comentários
 ```javascript
