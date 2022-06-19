@@ -42,3 +42,4 @@
 - Tela de carregamento de agentes copia de interface do jogo Valorant, consumindo a API do Valorant
 - [Making a linking shortener for free with NextJS, Prisma, PlanetScale,TS and more.](https://www.youtube.com/watch?v=qcyEtvSiM9c)
 - [Testando aplicações React com Jest & Testing Library](https://www.youtube.com/watch?v=edXudaVB0Bg)
+- [Theme styled components com Next e TS](https://dev.to/jjairojr/light-mode-e-dark-mode-e-temas-customizados-com-styled-components-e-nextjs-com-typescript-1pmh)
