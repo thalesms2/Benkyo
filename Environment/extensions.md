@@ -1,5 +1,7 @@
 # Extenções do meu VSCode
 
+### indent-rainbow
+> Facilita visualização de indentação do código.
 ### Babel Javascript
 > JavaScript syntax highlighting for ES201x, React JSX, Flow and GraphQL.
 
