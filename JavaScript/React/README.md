@@ -2,6 +2,7 @@
 Snowpack and Vite CRA
 ## Hooks
 Funcionabilidades de mais de um componente
+Closures
 ### UseMemo
 Serve para não refazer cálculos ou lógicas a não ser que o estado tenha mudado, recebe a função que executa caso o segundo parametro seja atualizado e o segundo parametro seria a variavel que quando atualizada serve de gatilho para a função ser executada 
 ### O que estudar
@@ -37,3 +38,6 @@ Cypress
 MVC
 Bounded Context
 
+## Derived States
+### **Cuidado**
+> Quando um estado depende de outro estado assim gerando duas renderizações talvez desnecessáriamente 
