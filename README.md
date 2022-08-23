@@ -8,4 +8,4 @@ Percebi a necessidade de possuir um local de fácil acesso para certas informaç
 
 > No momento tenho que adequar todos os arquivos que já possuia para o modelo pretendido `.md`
 ## Fácil acesso é digitar no Google
-Concordo, mas há muitas coisas que eu acabo achando uma vez e depois não lembro qual foi o caminho percorrido, e o maior motivo para armazenar `"tutoriais"` é que esses tutoriais em grande parte são em inglês, e eu gostaria de traduzi-las e simplificá-las.
+Concordo, mas há muitas coisas que eu acabo achando uma vez e depois não lembro qual foi o caminho percorrido, e o maior motivo para armazenar `"tutoriais"` é que esses tutoriais em grande parte são em inglês, e eu gostaria de traduzi-los e simplificá-los.
