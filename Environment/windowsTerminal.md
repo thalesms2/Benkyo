@@ -43,3 +43,8 @@ Invoke-Expression (&starship init powershell)
 ### Config
 
 `C:\users\usuario\.config\starship.toml`
+
+### Liberação de execução de scripts
+```bash
+Set-ExecutionPolicy Unrestricted 
+```
