@@ -26,3 +26,6 @@ Theme
 
 ### Dracula Official
 Theme
+
+### Ayu 
+[Theme](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
