@@ -29,7 +29,7 @@
 - Tailwindcss | tailwindUI | tailwindComponents
 - [SQL no Node.js com Knex.js | Masterclass #13](https://www.youtube.com/watch?v=U7GjS3FuSkA)
 - [Autenticação com Github](https://www.youtube.com/watch?v=OE4IupjQjzE)
-- [AULÃO: Clean Architecture no Flutter](youtube.com/watch?v=fABLC2fxQwg)
+- AULÃO: Clean Architecture no Flutter `youtube.com/watch?v=fABLC2fxQwg`
 - [Python Programming Basics](https://www.youtube.com/watch?v=bIjJVKmAz98)
 - [Controlando autenticação em rotas no React](https://www.youtube.com/watch?v=sYe4r8WXGQg)
 - [Intensivão Next.js com Tailwind](https://www.youtube.com/watch?v=VlZpDr59sjk)

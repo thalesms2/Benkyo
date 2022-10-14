@@ -3,7 +3,7 @@
 ### Tkinter
 > [GUI Library](https://docs.python.org/3/library/tkinter.html)
 ### Kivy
-> [GUI Library](Kivy)
+> GUI Library
 ### PyGTK
 > GUI Library
 ### PySide
