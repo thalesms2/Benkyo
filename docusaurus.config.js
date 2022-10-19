@@ -128,10 +128,12 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} ThalesMs, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/dracula'),
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell'],
       },
+      themes: ['@docusaurus/theme-live-codeblock'],
     }),
 };
-
+// https://prismjs.com/#supported-languages
 module.exports = config;
