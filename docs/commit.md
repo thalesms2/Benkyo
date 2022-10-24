@@ -1,4 +1,9 @@
-## Commit
+---
+sidebar_position: 2
+---
+
+# How to commit
+## Decrição
 Mensagem deve começar com um prefixo, um substantivo, exemplo: `feat`, `fix`, pode vir seguido de `!` = `BREAKING CHANGE` e obrigatóriamente terminar com dois-pontos e um espaço.
 ```
 refactor!: remove suporte para Node 6

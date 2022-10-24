@@ -128,9 +128,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} ThalesMs, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: require('prism-react-renderer/themes/dracula'),
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['powershell'],
       },
       themes: ['@docusaurus/theme-live-codeblock'],
     }),
