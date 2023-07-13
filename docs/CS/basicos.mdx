@@ -1,0 +1,136 @@
+# Básicos C Sharp
+
+```cs
+Console.WriteLine("Hello World!");
+// Hello World!
+Console.WriteLine("\nHello World!");
+// (Pulou a linha)
+// Hello World!
+```
+
+```cs
+Console.WriteLine(@"
+████████╗███████╗░██████╗████████╗░█████╗░███╗░░██╗██████╗░░█████╗░
+╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔══██╗██╔══██╗
+░░░██║░░░█████╗░░╚█████╗░░░░██║░░░███████║██╔██╗██║██║░░██║██║░░██║
+░░░██║░░░██╔══╝░░░╚═══██╗░░░██║░░░██╔══██║██║╚████║██║░░██║██║░░██║
+░░░██║░░░███████╗██████╔╝░░░██║░░░██║░░██║██║░╚███║██████╔╝╚█████╔╝
+░░░╚═╝░░░╚══════╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░░╚════╝░
+");
+```
+
+```cs
+// void é sinal que a função não retornará nada
+void Funcao()
+{
+    Console.WriteLine("Retorno da função");
+}
+void FuncaoComParametro(string parametro)
+{
+    Console.WriteLine($"Mostrando o parametro: {parametro}");
+}
+```
+
+```cs
+Console.Write("Digite algo: ");
+string algoEscrito = Console.ReadLine()!;
+// ! informa que não trabalha com o valor null, ou seja não será possível retornar "nada" nesse ReadLine
+```
+
+```cs
+if(condicao) 
+{
+    // bloco de código
+} else if(condicao2)
+{
+    // bloco de código
+} else 
+{
+    // bloco de código
+}
+```
+
+```cs
+switch(variavel)
+{
+    case 1: Console.WriteLine("Você escolheu 1");
+        break;
+    case 2: Console.WriteLine("Você escolheu 2");
+        break;
+    case 3: Console.WriteLine("Você escolheu 3");
+        break;
+    default: Console.WriteLine("Não caiu em nenhum dos casos anterior");
+        break;
+}
+```
+
+```cs
+string numero = 2;
+var num = 3;
+int number = int.Parse(numero);
+var n = int.Parse(numero);
+```
+
+```cs
+var variavel = "mundo";
+Console.WriteLine($"Olá, {variavel}!");
+Console.WriteLine("Olá, {0}!", variavel);
+Console.WriteLine("Olá, " + variavel + "!");
+```
+
+```cs
+Console.Clear();
+// Limpa o console
+Thread.Sleep(2000);
+// Aguarda 2000 milisegundos para continuar o processo
+```
+
+```cs
+List<string> listaExemplo = new List<string>();
+List<string> listaIniciada = new List<string> { "ValorIniciado1", "ValorIniciado2" };
+listaExemplo.Add("Valor1");
+// Valor1
+listaExemplo.Add("Valor2");
+// Valor1, Valor2
+```
+
+```cs
+for(int i = 0; i < listaExemplo.Count; i++)
+{
+    Console.WriteLine(listaExemplo[i]);
+}
+// Valor1
+// Valor2
+foreach(string valor in listaIniciada)
+{
+    Console.WriteLine(valor);
+}
+// Valoriniciado1
+// ValorIniciado2
+```
+
+```cs
+void ExibirTitulo(string titulo)
+{
+    int quantidadeDeLetras = titulo.Length;
+    string asteriscos = string.Empty.PadLeft(quantidadeDeLetras, "*");
+    Console.WriteLine(asteriscos);
+    Console.WriteLine(titulo);
+    Console.WriteLine(asteriscos);
+}
+// ******
+// titulo
+// ******
+```
+
+```cs
+Dictionary<string, List<int>> dicionarioExemplo = new Dictionary<string, List<int>>();
+// Dictionary<TKey, TValue> sendo TKey o tipo da chave e TValue o tipo do valor
+dicionarioExemplo.Add("Valor1", new List<int>());
+dicionarioExemplo.Add("Valor2", new List<int>());
+foreach(string valor in dicionarioExemplo.Keys) {
+    Console.WriteLine(valor);
+    // Valor1
+    // Valor2
+}
+```
