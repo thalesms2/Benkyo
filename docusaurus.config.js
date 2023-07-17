@@ -7,35 +7,32 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Benkyo',
-  tagline: 'Studying',
-  url: 'https://benkyo-thalesms2.vercel.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  tagline: 'Anotações',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['public', 'static'],
+
+  // Set the production url of your site here
+  url: 'https://benkyo-thalesms2.vercel.app',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'thalesms2', // Usually your GitHub org/user name.
   projectName: 'benkyo', // Usually your repo name.
 
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'pt',
-    locales: ['pt'],
+    defaultLocale: 'pt-br',
+    locales: ['pt-br'],
   },
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        language: "pt",
-        maxSearchResults: 20,
-        indexDocs: true,
-      }
-    ],
-  ],
+
   presets: [
     [
       'classic',
@@ -46,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/thalesms2/Benkyo/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/thalesms2/Benkyo/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,6 +62,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Benkyo',
         logo: {
@@ -76,11 +75,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentações',
+            label: 'Anotações',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/thalesms2/benkyo',
+            href: 'https://github.com/thalesms2/Benkyo',
             label: 'GitHub',
             position: 'right',
           },
@@ -130,9 +129,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell', 'csharp', 'markdown', 'cpp', 'makefile', ],
       },
-      themes: ['@docusaurus/theme-live-codeblock'],
     }),
 };
-// https://prismjs.com/#supported-languages
+
 module.exports = config;
