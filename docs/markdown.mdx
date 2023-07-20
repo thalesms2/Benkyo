@@ -1,0 +1,297 @@
+---
+sidebar_position: 2
+---
+
+# 📝 Markdown
+
+## Títulos
+
+```markdown
+# Título <h1>
+
+## Título <h2>
+
+### Título <h3>
+
+#### Título <h4>
+
+##### Título <h5>
+
+###### Título <h6>
+```
+
+## Negrito
+
+**Está em negrito**
+
+```markdown
+**Está em negrito**
+**Também está em negrito**
+```
+
+## Itálico
+
+_Está em itálico_
+
+```markdown
+_Está em itálico_
+_Também está em itálico_
+```
+
+## Links
+
+[Link](#)
+
+```markdown
+[Link](url)
+```
+
+### Link Ancorado
+
+[Link Ancorado](#perigo)
+
+```markdown
+[Link Ancorado](#perigo)
+```
+
+## Listas
+
+### Não ordenada
+
+-   Item 1
+-   Item 2
+    -   Item 3
+
+```markdown
+-   Item 1
+-   Item 2
+    -   Item 3
+```
+
+## Arquivos como PDF para download/visualização
+
+[Texto que será um link clicável](/pdf/homologacao_bancaria.pdf)
+
+```md
+[Texto que será um link clicável](/pdf/nome_do_arquivo.pdf)
+```
+
+## Imagens
+
+Imagem precisa ser adicionada na pasta `static/img` o título deve ser uma breve referencia do que se trata a imagem
+e o URL será `/img/nome_da_imagem.png`.
+Favor manter o padrão de nomes separados por `underline` `_`.
+
+```markdown
+![Alt ou título da imagem](URL da imagem)
+```
+
+## Citação (Quote)
+
+> Isso aqui
+
+```markdown
+> Isso aqui
+```
+
+## Código
+
+### Código em linha
+
+isso `aqui`
+
+```markdown
+isso `aqui`
+```
+
+### Código em bloco
+
+só colocar **```** ou **~~~** envolvendo o bloco de código e inserir o nome da linguagem na abertura do bloco para adicionar sintaxe
+
+## Tabela
+
+| Exemplo   | Valor do exemplo |
+| --------- | ---------------- |
+| Exemplo 1 | R$ 10            |
+| Exemplo 2 | R$ 8             |
+
+```markdown
+| Exemplo   | Valor do exemplo |
+| --------- | ---------------- |
+| Exemplo 1 | R$ 10            |
+| Exemplo 2 | R$ 8             |
+| Exemplo 3 | R$ 7             |
+| Exemplo 4 | R$ 8             |
+```
+
+> Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize : ao lado do campo horizontal de hífens ---, na segunda linha da sua tabela. Veja abaixo:
+
+-   **Alinhado à esquerda:** usar `:` no lado esquerdo (alinhamento padrão);
+-   **Alinhado à direita:** usar `:` no lado direito;
+-   **Centralizado:** usar `:` dos dois lados.
+
+## Admonitions
+
+> Cards de avisos
+
+### Nota
+
+```markdown
+:::note Note - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+```
+
+:::note Note - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Dica
+
+```markdown
+:::tip Tip - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+```
+
+:::tip Tip - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Informação
+
+```markdown
+:::info Info - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+```
+
+:::info Info - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Cuidado
+
+```markdown
+:::caution Caution - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+```
+
+:::caution Caution - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Perigo
+
+```markdown
+:::danger Danger - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+```
+
+:::danger Danger - Your Title
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+## Abas
+```jsx
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+<Tabs>
+    <TabItem value="apple" label="Apple" default>
+        This is an apple 🍎
+    </TabItem>
+    <TabItem value="orange" label="Orange">
+        This is an orange 🍊
+    </TabItem>
+    <TabItem value="banana" label="Banana">
+        This is a banana 🍌
+    </TabItem>
+</Tabs>
+```
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+<Tabs>
+    <TabItem value="apple" label="Apple" default>
+        This is an apple 🍎
+    </TabItem>
+    <TabItem value="orange" label="Orange">
+        This is an orange 🍊
+    </TabItem>
+    <TabItem value="banana" label="Banana">
+        This is a banana 🍌
+    </TabItem>
+</Tabs>
+
+## Abas com bloco de código
+```javascript
+Retirar os //
+//```mdx-code-block
+<Tabs>
+<TabItem value="js" label="JavaScript" default>
+//```
+
+//```js
+console.log('Hello World')
+//```
+
+//```mdx-code-block
+</TabItem>
+<TabItem value="python" label="Python">
+//```
+
+//```python
+print('Hello World')
+//```
+
+//```mdx-code-block
+</TabItem>
+</Tabs>
+//```
+```
+
+```mdx-code-block
+<Tabs>
+<TabItem value="js" label="JavaScript" default>
+```
+
+```js
+console.log('Hello World')
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="python" label="Python">
+```
+
+```python
+print('Hello World')
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
