@@ -43,15 +43,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
-      '@docusaurus/preset-classic',
-      {
         docs: {
           path: 'docs',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
-      },
+      }),
     ],
   ],
   stylesheets: [
