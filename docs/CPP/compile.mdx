@@ -1,5 +1,7 @@
 # Compilar código
 
+## MinGW
+
 - Para gerar o arquivo binário executavel digite no terminal
 
 ```bash
@@ -12,7 +14,7 @@ g++ -o nomeExecutavel.exe arquivo.cpp
 ./nomeDoArquivoBinario.exe
 ```
 
-## Parâmetros
+### Parâmetros
 
 `-o` Compila para um executavel definindo seu nome e linkando todos os arquivos.
 
@@ -21,3 +23,16 @@ g++ -o nomeExecutavel.exe arquivo.cpp
 `-c` Compila para um `object code`
 
 `-Wall`  Mostra todas as mensagens de avisos que foram geradas durante a compilação
+
+## Developer PowerShell/Command Prompt for VS
+
+O comando para compilar e composto pelo `cl` que é o compilador do C++ `/EH` é o Exception handling model
+não é obrigatório mas aconselha-se que utilize o `/EHsc`
+
+```bash
+# Compilar:
+cl /EHsc arquivo.cpp
+
+# Executar
+./arquivo.exe
+```

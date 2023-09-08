@@ -1,5 +1,6 @@
 # Instalar compilador no Windows
 
+## MinGW
 > GCC e G++
 
 - Acesse o [Site](https://www.msys2.org/) e faça o download do MSYS2
@@ -35,7 +36,7 @@ IDE que é executada no terminal
 
 Sistema multiplataforma para realizar a geração automatizada, cria scripts para compilação e execução.
 
-## Adicionar executaveis ao PATH do Windows
+### Adicionar executaveis ao PATH do Windows
 Para usar os comandos diretamente em qualquer prompt de comando, é necessário adicionar seus caminhos as variáveis de ambiente do windows para isso procure `Editar as variáveis de ambiente do sistema` 
 Clique no botão `Variáveis de Ambiente`
 No primeiro campo procure por `Path` o selecione e clique no botão `Editar...`
@@ -47,3 +48,13 @@ C:\msys64\mingw64\bin
 ```bash
 C:\msys64\usr\bin
 ```
+
+## Build Tools do MVS
+
+[Download do Visual Studio](https://visualstudio.microsoft.com/downloads/)
+
+Necessário instalar as ferramentas para desenvolvimento desktop de C++
+sem necessidade da IDE completa.
+
+Será instalado uma instancia de terminal `Developer PowerShell/Command Prompt for VS` 
+e será nesse ambiente que será possível compilar o código em C++.
